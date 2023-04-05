@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Welcome to Aston Martin</title>
+</head>
+
+<body>
+    <div class="mobile-menu-wrapper">
+        <div class="mobile-menu-overlay">
+        </div>
+        <div class="mobile-menu-container scrollable">
+			<a class="mobile-menu-close" href="javascript:void(0)"> 
+                <img class="btn-menu" 
+                src="image/logo.png" alt=""></a>
+           
+        </div>
+    </div>
+  <!-- Showcase & Nav -->
+  <div id="showcase">
+    <header>
+      <nav class='cf'>
+        <ul class='cf'>
+          <li class="hide-on-small">
+            <a href="#showcase">Introduce</a>
+          </li>
+          <li>
+            <a href='#music'>Car</a>
+          </li>
+          <li>
+            <a href='#video'>Video</a>
+          </li>
+          <li>
+            <a href="#more">More</a>
+          </li>
+            
+
+        </ul>
+        <a href='#' id='openup'>ASTON MARTIN</a>
+      </nav>
+    </header>
+    <div class="batman">
+      <h1>ASTON MARTIN</h1>
+      <h2>Intensity. Driven.</h2>
+      <p class="lead hide-on-small"></p>
+        Power, Beauty and Soul" is the current slogan of Aston Martin. 
+        The iconic luxury car brand has used this slogan since 2005 to reflect the brand's values of exceptional performance, timeless elegance and a passion for the art of driving.> 
+         The slogan is meant to convey the emotions and experiences that come with driving an Aston Martin. "Power" suggests the car's impressive performance, "Beauty" represents the iconic, elegant design of Aston Martin vehicles, while "Soul" relates to the emotion and passion drivers feel when behind the wheel. 
+         This slogan has become an integral part of Aston Martin's brand identity and has helped the company maintain its position as a prestigious luxury car brand.
+      </p>
+    </div>
+  </div>
+
+  <!-- Car Section -->
+  <section id="music" class="section">
+    <div class="container">
+      <h2 class="section-head">
+       </i> Car
+      </h2>
+      <h3>Aston Martin sold 6,400 cars during 2022</h3>
+      <p class="lead">Aston Martin Lagonda is a luxury automotive group focused on creating exclusive super sports cars and SUVs. 
+        The iconic Aston Martin brand has combined the latest technology, exceptional craftsmanship and timeless design to produce models including the Vantage, DB11, DBS Superleggera and new SUVs, DBX and DBX707 .
+    </p>
+      <a href="#" class="btn btn-primary mb">Drive Now</a>
+      <p class="text-light">Dreaming for everybody</p>
+      <div class="sedan">
+        <img src="./image/1.jpg" alt="" class="item" />
+        <img src="./image/6.jpg" alt="" class="item" />
+        <img src="./image/8.jpg" alt="" class="item" />
+       
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel(){
+            var x = document.getElementsByClassName("item");
+            for(var i = 0; i < x.length; i++){
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if(myIndex > x.length){
+                myIndex = 1;
+
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel,2000);
+        }
+    </script>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video" class="section bg-light">
+    <div class="container">
+      <h3>Video</h3>
+      <iframe width="800" height="500" 
+      src="https://www.youtube.com/embed/kyOWkoTla2Y/autoplay=1" title="Getting started, from entry to exit | Aston Martin DB11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <p class="lead">Aston Martin was founded in 1913 by Lionel Martin and Robert Bamford.
+         The two had joined forces as Bamford & Martin the previous year to sell cars made by Singer from premises in Callow Street, London where they also serviced GWK and Calthorpe vehicles. 
+         Martin raced specials at Aston Hill near Aston Clinton, and the pair decided to make their own vehicles.[25] The first car to be named Aston Martin was created by Martin by fitting a four-cylinder Coventry-Simplex engine to the chassis of a 1908 Isotta Fraschini.</p>
+      <a href="#" class="btn btn-secondary">Read More</a>
+    
+    </div>
+  </section>
+
+  <!-- Entertainment Section -->
+  <section id="entertainment" class="section">
+    <div class="container">
+      <h3>A world of entertainment. Available wherever you are.</h3>
+      <p class="lead">Mobile phone operating system connectivity will be standard in DBX, allowing easy pairing with
+        smartphones. Bluetooth connectivity with audio streaming and FM/AM radio along with DAB or
+        SiriusXM Satellite radio (US & Canada only) are also fitted as standard to cover all audio
+        entertainment needs</p>
+    </div>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-cols">
+        <ul>
+          <li>Phụ Kiện</li>
+          <li>
+            <a href="#">Vè che mưa</a>
+          </li>
+<li>
+            <a href="#">Mâm</a>
+          </li>
+          <li>
+            <a href="#">Phuộc</a>
+          </li>
+          <li>
+            <a href="#">Film</a>
+          </li>
+          <li>
+            <a href="#">Đèn</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>Bảo Dưỡng</li>
+          <li>
+            <a href="#">Thay nhớt</a>
+          </li>
+          <li>
+            <a href="#">Thay lốp</a>
+          </li>
+          <li>
+            <a href="#">Kiểm tra động cơ</a>
+          </li>
+          <li>
+            <a href="#">Vệ sinh khoang máy</a>
+          </li>
+          <li>
+            <a href="#">Thay nước làm mát</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>Tuyển dụng</li>
+          <li>
+            <a href="#">Thợ máy</a>
+          </li>
+          <li>
+            <a href="#">Rửa xe</a>
+          </li>
+          <li>
+            <a href="#">Sales</a>
+          </li>
+          <li>
+            <a href="#">Bảo vệ</a>
+          </li>
+          
+    
+
+        </ul>
+
+        <ul>
+          <li>Lái thử</li>
+          <li>
+            <a href="#">Xe sedan</a>
+          </li>
+          <li>
+            <a href="#">Xe SUV</a>
+          </li>
+          <li>
+            <a href="#">Xe Pick-up</a>
+          </li>
+          <li>
+            <a href="#">Xe Couple</a>
+          </li>
+          <li>
+            <a href="#">Xe CUV</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+     &copy; Khoa công nghệ oto 
+    </div>
+  </footer>
+
+  
+</body>
+
+</html>
