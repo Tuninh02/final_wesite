@@ -62,7 +62,10 @@ a {
 }
 
 section#entertainment {
-  background: url(../Image/3.jpg) no-repeat bottom/cover;
+  background-image: url(../Image/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10rem 0;
 }
 
