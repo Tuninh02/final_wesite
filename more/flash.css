@@ -8,38 +8,19 @@
   --secondary-color-hover: #143f85;
   --light-color: #f4f4f4;
 }
-header{
-  width: 100%;
-  position: fixed;
- 
-}
-.batman{
-  font-size: large;
-  text-align: center;
-  margin-top: 100px;
-}
-h1{ 
-  color: #252529;
-}
-h2 {
-  color: #252529;
-}
 
 body {
-  display: inline-block;
-  margin-top: auto;
   font-family: 'PT Sans', sans-serif;
-  min-width: none;
+  background-image: url(../Image/0.jpg);
+  background-position: center;
   background-color: #252529;
   margin: 0;
-  color:white;
-  line-height: 1.5
+  color: #fff;
+  line-height: 1.6;
 }
 
 img {
-  margin: auto;
-  width: 100%;
-  text-align: center;
+  max-inline-size: none;
 }
 
 a {
@@ -52,17 +33,18 @@ a {
   padding: 2rem 0;
 }
 .section-head {
-
     font-size: 2.5rem;
     margin: 0;
   }
+
+
 
 .section h3 {
   font-size: 2rem;
 }
 
 section#entertainment {
-  background: url(../image/3.jpg) no-repeat bottom/cover;
+  background: url(../image/.jpg) no-repeat bottom/cover;
   padding: 10rem 0;
 }
 
@@ -77,11 +59,9 @@ section#entertainment {
 #showcase {
   margin: 0;
   padding: 0;
-
+  background: url('../img/showcase.jpg') no-repeat center/cover;
   width: 100%;
-  height: 100vh ;
-  background-image: url(../Image/13.jpg); 
-  background-position: center;
+  height: 100vh;
   position: relative;
   overflow-y: hidden;
 }
@@ -99,37 +79,14 @@ section#entertainment {
   font-size: 2rem;
 }
 
-/* Footer */
-footer .footer-cols {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 2rem;
-  text-align: left;
-  font-size: 14px;
-}
 
-footer .footer-cols ul {
-  list-style: none;
-}
 
-footer .footer-cols ul li:first-child {
-  font-size: 1.2rem;
-  padding-bottom: 0.5rem;
-  border-bottom: #444 solid 1px;
-  margin-bottom: 1rem;
-}
-
-footer .footer-bottom {
-  background: #333;
-  padding: 1rem;
-}
 
 /* Utility Classes */
 .container {
   max-width: 1180px;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 3rem;
 }
 
@@ -318,17 +275,13 @@ nav a#openup {
   }
 }
 .container{
-    margin-top: auto;
-    width: auto;
-    height: auto;
+    width: 900px;
     margin: auto;
     position: relative;
 }
 img{
-    margin: auto;
-    width: 80%;
-    height:auto;
-    text-align: center;
+    width: 100%;
+    height: 50vh;
 }
 
 a {
@@ -352,9 +305,7 @@ a {
 .next:hover {
     background: rgba(0,0,0,0.8);
 }
-
-
-
-
-
-
+.btn-menu {
+    margin-bottom: auto;
+    width: auto; height: auto;
+}
